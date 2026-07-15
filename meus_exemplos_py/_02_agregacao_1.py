@@ -1,3 +1,4 @@
+#agrega sem mexer na classe: Pessoa
 class Endereco:
     def __init__(self, ruaEnd, cidadeEnd):
         self.rua=ruaEnd 
