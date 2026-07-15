@@ -1,5 +1,5 @@
 #from conta import Conta #usando outro arquivos
-from classe_cliente import Cliente
+from classes.cliente import Cliente
 from aula_46_Composicao_de_Classe_contaClienteExtrato_1 import Conta
 
 def main():

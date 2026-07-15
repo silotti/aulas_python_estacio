@@ -1,8 +1,8 @@
 class Conta:
     def __init__(self, numero, saldo):
         #__ faz atributo ficar privado, (init é construtor)
-        self.__numero=numero
-        self.__saldo=saldo
+        self.__numero=numero #__ deixa privado
+        self.__saldo=saldo #__ deixa privado
         
     def sacar(self, valor):
         if self.__saldo<valor:

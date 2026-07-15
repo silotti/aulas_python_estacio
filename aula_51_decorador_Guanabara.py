@@ -1,5 +1,6 @@
 #encapsulamento só protege a manupulação não a exibição
-from classes.conta_guanabara_decorator import Conta
+#decorator para acessar atributos privados
+from classes.conta_decorator import Conta
 c1=Conta(1, 1000)
 c2=Conta(2, 50)
 c3=Conta(3, 0)

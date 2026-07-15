@@ -3,7 +3,7 @@
 #onde 1 obj é parte do outro e não pode existir de forma independente
 
 import datetime
-from classe_extrato import Extrato
+from classes.extrato import Extrato
 
 class Conta:
    def __init__(self, clientes, numero, saldo):

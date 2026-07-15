@@ -19,6 +19,7 @@ class Departamento:
 f1 = Funcionario("Ana", "Analista")
 f2 = Funcionario("Carlos", "Desenvolvedor")
 
+# Criando o departamento e adicionando os funcionários
 dep = Departamento("TI")
 dep.adicionar_funcionario(f1)
 dep.adicionar_funcionario(f2)
